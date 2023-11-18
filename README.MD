@@ -1,1 +1,1 @@
-repository for solutions acm.timus.ru
+repository for solutions https://acm.timus.ru
