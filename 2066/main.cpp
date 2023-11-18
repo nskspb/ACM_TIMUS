@@ -9,8 +9,8 @@ int main()
 
     std::cout << std::min(a - (b * c), a - b - c) << std::endl;
 
-    char m = 'a';
+    /*char m = 'a';
     m -= 22;
-    std::cout << m << std::endl;
+    std::cout << m << std::endl;*/
     return 0;
 }
