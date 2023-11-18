@@ -1,0 +1,3 @@
+/home/ubunter/Desktop/study/C_plus_plus/ACM_TIMUS/1877/cmake-build-debug/CMakeFiles/1877.dir
+/home/ubunter/Desktop/study/C_plus_plus/ACM_TIMUS/1877/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/ubunter/Desktop/study/C_plus_plus/ACM_TIMUS/1877/cmake-build-debug/CMakeFiles/rebuild_cache.dir
