@@ -1,20 +1,29 @@
 #include <iostream>
-#include <math.h>
-
+#include <vector>
 int main()
 {
-    double n, k;
-    std::cin >> n >> k;
-    double del = 0;
-    if (n <= k)
+    int n;
+    std::cin >> n;
+    std::vector<int> sections(n);
+    int magic = 0;
+    int summ = 0;
+    int sred = 0;
+
+    for (auto i = 0; i < n; ++i)
     {
-        del = 2;
-    }
-    else
-    {
-        del = ceil((n / k) * 2);
+        std::cin >> sections[i];
     }
 
-    std::cout << del;
+    for (auto i = 1; i < n - 1; ++i)
+    {
+        summ = sections[i - 1] + sections[i] + sections[i + 1];
+        if (summ > magic)
+        {
+            magic = summ;
+            sred = i;
+        }
+    }
+
+    std::cout << magic << " " << sred + 1 << std::endl;
     return 0;
 }
