@@ -1,5 +1,5 @@
 #include <iostream>
-#include <vector>
+
 int main()
 {
     int n;
@@ -7,11 +7,10 @@ int main()
     int summa = 0;
     if (n < 1)
     {
-        for (auto i = 1; i > n; --i)
+        for (auto i = 1; i >= n; --i)
         {
             summa += i;
         }
-        summa += 1;
     }
     else
     {
