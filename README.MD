@@ -5,3 +5,7 @@
 cmake . -B build
 
 cmake --build build/
+
+## Запуск
+
+./build/`<name of program>`
